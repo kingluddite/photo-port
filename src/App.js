@@ -29,7 +29,7 @@ function App() {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
         contactSelected={contactSelected}
-        setCurrentSelected={setContactSelected}
+        setContactSelected={setContactSelected}
       />
       <main>
         {!contactSelected ? (
